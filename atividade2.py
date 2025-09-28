@@ -1,3 +1,5 @@
+#Desenvolvimento de um Perceptron para um Aspirador Inteligente
+
 def perceptron_aspirador_inteligente(piso, sujeira, distancia):
     pisos = {"madeira": 0.5, "ceramica": 1.0, "carpete": 0.2}
     piso_valor = pisos.get(piso.lower(), 0.5)
